@@ -3,11 +3,11 @@
 import os
 from os import environ
 
-API_ID = int(environ.get("API_ID", "26713214"))
-API_HASH = environ.get("API_HASH", "fc87c0fb26949deb0bc940dd35c1658d")
+API_ID = int(environ.get("API_ID", "32055524"))
+API_HASH = environ.get("API_HASH", "52777b469ffe310595012e55028d746d")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-OWNER = int(environ.get("OWNER", "7752941299"))
+OWNER = int(environ.get("OWNER", "6231590946"))
 CREDIT = environ.get("CREDIT", '👨‍💻Rick Johnson')
 CREDIT_LINK = environ.get("CREDIT_LINK", 'https://t.me/rick007contactbot')
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
@@ -70,4 +70,5 @@ Please contact the admin to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
